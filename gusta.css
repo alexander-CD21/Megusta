@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{
+    height: 150px;
+    width: 400px;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.linea1{
+    display: flex;
+}
+.item1{
+    margin-left: 20px;
+    margin-top :20px;
+}
+.item2{
+    display: flex;
+    margin-top: 20px;
+    margin-left:120px;
+}
+.item22{
+    margin-right: 10px;
+}
+.item3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.item3>button{
+    background-color: orange;
+    height: 30px;
+    width: 50px;
+    border: 3px solid black;
+    box-shadow: 4px 3px black;
+}
+.linea2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
